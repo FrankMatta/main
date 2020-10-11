@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Bangers', cursive;
+  background-color: rgb(24,24,29);
+}
+
+.hidden{
+  display: none !important
+}
+
+.container{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin-top: 4%;
+}
+
+.winner{
+  display: block;
+  width: 100%;
+  font-size: 120px;
+  color: green;
+  text-align: center;
+}
+
+.container button{
+  display: block;
+  font-family: inherit;
+  font-size: 130px;
+  color: red;
+  background-color: transparent;
+  border: none;
+  margin: auto;
+  cursor: pointer;
+  outline: none;
+}
+
+.continue h1 {
+  height: 0;
+  margin-bottom: 5%
+}
+
+.welcome {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+
+.welcome input {
+  font-size: 50px;
+  border-radius: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.welcome button {
+  font-size: 50px;
+  font-family: inherit;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 4%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container h1 {
+  display: inline-block;
+  font-size: 80px;
+  color: white;
+}
+
+.next-level {
+  justify-content: center;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.next-level button {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.gameover {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  font-size: 50px;
+  color: rgba(255,40,120,0.7)
+}
+
+.gameover button {
+  cursor: pointer;
+  font-size: 80px;
+  font-family: inherit;
+  background-color: inherit;
+  color: teal;
+  border: none;
+  outline: none;
+}
+
+.userInfo{
+  clear:both;
+  top: 0;
+  left: 0;
+}
+
+.userInfo h4 {
+  display: inline;
+  font-size: 50px;
+  color: white;
+  margin: 0;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.left{
+  float: left;
+
+}
+
+.right {
+  float:right;
+}

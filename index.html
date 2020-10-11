@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Let's Maze</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+  </head>
+  <body>
+    <!-- Welcome page -->
+    <div class="welcome">
+      <h1>Welcome To Let's Maze</h1>
+      <h3 >Enter your Name below</h3>
+      <input type="text" placeholder="name goes here"> <br>
+      <button type="button">Let's Maze!</button>
+    </div>
+    <div class="userInfo hidden">
+      <h4 class="left"></h4>
+      <h4 class="right"></h4>
+    </div>
+    <div class="container continue hidden">
+      <h1 id="welcome-back-header">Welcome Back Frank</h1><br>
+      <h1>Start a new game?</h1>
+      <button id="new-game-button" class="play-button">New Game</button>
+      <h1> Continue where you left off!</h1>
+      <button id="continue-button" class="continue-button">Continue</button>
+    </div>
+    <div class="container next-level hidden">
+      <h1 class="winner ">Winner Winner Chicken Dinner!</h1>
+      <button  id="next-level-button" class="next-level">Next Level</button>
+    </div>
+    <div class="gameover hidden">
+      <h1>Congratulations!</h1>
+      <h2>You've Beaten The Game!</h2>
+      <h2>Thank you for playing :) </h2>
+      <button type="button" name="button">Play Again?</button>
+    </div>
+
+    <script src="variablesAndFunctions.js"></script>
+    <script src="mazeGame.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
